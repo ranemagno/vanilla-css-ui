@@ -1,0 +1,130 @@
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+
+
+      .mobile-container {
+        position: relative;
+        /* height: 100vh; */
+      }
+      .mobile-nav {
+         height: 90px;
+         background-color: yellow;
+         height: 100px;
+      }
+      .menu,
+      .logo,
+      .search {
+        height: inherit;
+        float: left;
+      }
+      .menu {
+        width: 12%;
+        background-color: red;
+      }
+      .logo {
+        background-color: green;
+        width: 76%;
+      }
+      .search {
+        background-color: purple;
+        width: 12%;
+      }
+/* end of mobile nav */
+
+/* start of daily section */
+      .daily-section {
+        height: 30vh;
+        background-color: blue;
+      }
+      .location {
+        background-color: yellow;
+        height: 4vw;
+        width: 100%;
+        padding: 1.5% 0 1.5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 5vw;
+      }
+      .weather-img,
+      .weather-info {
+        height: 26.8vh;
+        float: left;
+        width: 50%;
+      }
+      .weather-img {
+        background-color: pink;
+      }
+      .weather-info {
+        background-color: turquoise;
+      }
+/* end of daily section */
+
+      .map-section,
+      .fav-section,
+      .filler-section {
+        height: 25vh;
+        margin: 40px;
+        background-color: purple;
+        position: relative;
+      }
+
+/* start of map section */
+      .map-title,
+      .map-expand {
+        height: 5vh;
+        position: absolute;
+        bottom: 0;
+      }
+      .map-title {
+        width: 85%;
+        background-color: yellow;
+      }
+      .map-expand {
+        width: 15%;
+        right: 0;
+        background-color: pink;
+      }
+/* end of map section */
+
+/* start of fav section */
+      .fav-section {
+        background-color: red;
+      }
+      .fav-title {
+        height: 7vh;
+        background-color: pink;
+      }
+
+      .city {
+        height: 6vh;
+      }
+      .c-one {
+        background-color: yellow;
+      }
+      .c-two {
+        background-color: blue;
+      }
+      .c-three {
+        background-color: green;
+      }
+/* end of fav section */
+
+/* start of filler section */
+      .filler-section {
+        background-color: yellow;
+      }
+
+      .footer-section {
+        height: 100px;
+        background-color: green;
+      }
