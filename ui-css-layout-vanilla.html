@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/weather-icons.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
   </head>
   <body>
 
@@ -59,12 +61,15 @@
 
 <!-- start of map section ------------------------------------------------------>
       <div class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d770297.1477654311!2d174.28997204687494!3d-41.04771442477965!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1614032548618!5m2!1sen!2snz" width="100%" height="100%;" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="map"></div>
         <div class="map-title">
           <h3 class="map-title-text">National forecast</h3>
         </div>
         <div class="map-expand">
-          <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+          <a href="https://goo.gl/maps/SD9ztFAXUVWRABZcA">
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
 <!-- end of map section -->
@@ -80,7 +85,6 @@
 
       <!-- filler section - used for temporary spacing
           <div class="filler-section"></div>
-          found at end of css
       -->
 
 <!-- start of footer ----------------------------------------------------------->
