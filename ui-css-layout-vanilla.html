@@ -4,59 +4,96 @@
     <meta charset="utf-8">
     <title>Metservice Redesign</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/60e93858bb.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
 
+<!-- start of mobile nav ------------------------------------------------------->
     <div class="mobile-container">
 
       <div class="mobile-nav">
         <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
-        <div class="logo"><img src="images/logo-metservice.png" alt="Metservice Logo" id="logoMetservice"></div>
+        <div class="logo">
+          <h3 class="logo-metservice"><i class="wi wi-hurricane wi-rotate-90"></i>Metservice</h3>
+        </div>
         <div class="search"><i class="fa fa-search" aria-hidden="true"></i></div>
       </div>
-    <!-- end of mobile nav -->
+<!-- end of mobile nav -->
 
+<!-- start of daily section ----------------------------------------------------->
       <div class="daily-section">
-        <h3 class="location">Wellington City</h3>
-        <div class="weather-img"><i class="fa fa-sun-o" aria-hidden="true"></i></div>
+        <div class="location"><h3 class="location-title">Wellington City</h3></div>
+        <div class="weather-img"><i class="wi wi-day-sunny"></i></div>
         <div class="weather-info">
-          <div class="current-temp">22c</div>
-          <div class="max-min-temp"></div>
-          <div class="rain-wind"></div>
+          <div class="current-temp"><h2>22c</h2></div>
+      <!-- start of max and min temp -->
+          <div class="max-min-temp">
+            <p>
+              <a class="temp-left">
+              <i class="wi wi-thermometer-exterior"></i>23c
+              </a>
+              <a class="temp-right">
+                <i class="wi wi-thermometer-exterior"></i>14c
+              </a>
+            </p>
+          </div>
+      <!-- end of max and min temp -->
+      <!-- start of rain and wind -->
+          <div class="rain-wind">
+              <p>
+                <i class="wi wi-rain"></i>0.0
+                <a class="wind-right">
+                  <i class="wi wi-strong-wind"></i>19<a class="small-units">km</a>
+                </a>
+              </p>
+          </div>
+      <!-- end of rain and wind -->
         </div>
-        <!-- end of weather info -->
+    <!-- end of weather info -->
       </div>
-    <!-- end of daily section -->
+<!-- end of daily section -->
 
+<!-- start of map section ------------------------------------------------------>
       <div class="map-section">
         <div class="map"></div>
-        <div class="map-title"></div>
-        <div class="map-expand"></div>
+        <div class="map-title">
+          <h3 class="map-title-text">National forecast</h3>
+        </div>
+        <div class="map-expand">
+          <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+        </div>
       </div>
-    <!-- end of map section -->
+<!-- end of map section -->
 
+<!-- start of fav section ------------------------------------------------------>
       <div class="fav-section">
         <h3 class="fav-title"></h3>
         <div class="city c-one"></div>
         <div class="city c-two"></div>
         <div class="city c-three"></div>
       </div>
-    <!-- end of fav section -->
+<!-- end of fav section -->
 
-    <!-- start of filler section -->
-      <div class="filler-section"></div>
-    <!-- end of filler section -->
+      <!-- filler section - used for temporary spacing
+          <div class="filler-section"></div>
+          found at end of css
+      -->
 
+<!-- start of footer ----------------------------------------------------------->
       <div class="footer-section">
         <div class="left-section"></div>
         <div class="mid-section"></div>
         <div class="right-section"></div>
       </div>
-    <!-- end of footer -->
+<!-- end of footer -->
+
+
     </div>
 <!-- end of mobile container -->
+
   </body>
 </html>

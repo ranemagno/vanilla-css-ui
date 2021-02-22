@@ -1,0 +1,213 @@
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nanum Pen Script', cursive;
+        background-image: url('../images/so-white.png');
+        background-repeat: repeat;
+        background-size: contain;
+      }
+      img {
+        width: 100%;
+      }
+
+/* start of mobile nav ---------------------------------------*/
+      .mobile-container {
+        position: relative;
+      }
+      .mobile-nav {
+         height: 90px;
+         margin-top: 1%;
+         height: 100px;
+      }
+      .menu,
+      .logo,
+      .search {
+        height: inherit;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .menu {
+        width: 12%;
+      }
+
+      /* hamburger icon */
+      .fa-bars {
+        font-size: 70px;
+      }
+      .logo {
+        width: 76%;
+      }
+
+      /* image */
+      .logo-metservice{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .wi-hurricane {
+        margin-right: 5%;
+      }
+      .search {
+        width: 12%;
+      }
+
+      /* search icon */
+      .fa-search {
+        font-size: 70px;
+      }
+/* end of mobile nav -----------------------------------------*/
+
+
+/* start of daily section ------------------------------------*/
+      .daily-section {
+        height: 30vh;
+        border-bottom: 5px solid black;
+      }
+      h3 {
+        font-size: 8vw;
+        text-transform: uppercase;
+      }
+      .location-title {
+        padding: 4% 0 0 6%;
+      }
+      .location {
+        height: 10vw;
+        width: 100%;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      .weather-img,
+      .weather-info {
+        height: 26vh;
+        float: left;
+
+      }
+      .weather-img {
+        width: 55%;
+      }
+      .weather-info {
+        width: 40%;
+      }
+      .weather-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* sun icon */
+      .wi-day-sunny {
+        font-size: 15vh;
+      }
+
+      .current-temp{
+        height: 13vh;
+      }
+      h2 {
+        font-size: 13vh;
+      }
+      .max-min-temp,
+      .rain-wind {
+        height: 5vh;
+      }
+      p {
+        font-size: 3vh;
+        letter-spacing: 10px;
+      }
+      .temp-left {
+        padding-left: 5%;
+      }
+      .temp-right {
+        padding-left: 10%
+      }
+      .small-units {
+        font-size: 1.5vh;
+      }
+      .wi-strong-wind {
+        font-size: 2vh;
+      }
+      .wind-right {
+        padding-left: 1%;
+      }
+/* start of daily section --------------------------------------*/
+
+      .map-section,
+      .fav-section,
+      .filler-section {
+        height: 25vh;
+        margin: 40px;
+        position: relative;
+      }
+
+/* start of map section ---------------------------------------*/
+      .map-section {
+        border: 4px solid black;
+        background-image: url('../images/funky-lines.png');
+        background-size: cover;
+      }
+      .map-title,
+      .map-expand {
+        height: 5vh;
+        position: absolute;
+        bottom: 0;
+      }
+      .map-title {
+        width: 85%;
+        background-color: white;
+        border-top: 4px solid black;
+      }
+      .map-title-text {
+        padding: 2% 0 0 2%;
+      }
+      .map-expand {
+        width: 15%;
+        right: 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 4px solid black;
+
+      }
+      .fa-arrows-alt {
+        font-size: 3vh;
+      }
+/* start of map section -------------------------------------*/
+
+/* start of fav section -------------------------------------*/
+      .fav-section {
+        background-color: red;
+      }
+      .fav-title {
+        height: 7vh;
+        background-color: pink;
+      }
+
+      .city {
+        height: 6vh;
+      }
+      .c-one {
+        background-color: yellow;
+      }
+      .c-two {
+        background-color: blue;
+      }
+      .c-three {
+        background-color: green;
+      }
+/* end of fav section ---------------------------------------*/
+
+/* start of footer section ----------------------------------*/
+
+      .footer-section {
+        height: 100px;
+        background-color: green;
+      }
+
+    /* filler section - used for temporary spacing
+      .filler-section {
+        background-color: yellow;
+      } */
+
+/* end of code*/
