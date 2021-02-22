@@ -7,7 +7,9 @@
         margin: 0;
         padding: 0;
       }
-
+      img {
+        width: 100%;
+      }
 
       .mobile-container {
         position: relative;
@@ -15,7 +17,8 @@
       }
       .mobile-nav {
          height: 90px;
-         background-color: yellow;
+         margin-top: 1%;
+         /* background-color: yellow; */
          height: 100px;
       }
       .menu,
@@ -23,49 +26,78 @@
       .search {
         height: inherit;
         float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .menu {
         width: 12%;
-        background-color: red;
+      }
+      /* hamburger icon */
+      .fa-bars {
+        font-size: 70px;
       }
       .logo {
-        background-color: green;
         width: 76%;
       }
+      /* image */
+      #logoMetservice {
+        width: 50%;
+      }
       .search {
-        background-color: purple;
         width: 12%;
+      }
+      /* search icon */
+      .fa-search {
+        font-size: 70px;
       }
 /* end of mobile nav */
 
 /* start of daily section */
       .daily-section {
-        height: 30vh;
-        background-color: blue;
+        height: 33vh;
+        /* background-color: blue; */
       }
       .location {
-        background-color: yellow;
-        height: 4vw;
+        /* background-color: yellow; */
+        height: 10vw;
         width: 100%;
-        padding: 1.5% 0 1.5% 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 5% 0 0 5%;
+        text-align: left;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
         font-size: 5vw;
       }
       .weather-img,
       .weather-info {
-        height: 26.8vh;
+        height: 26vh;
         float: left;
         width: 50%;
       }
       .weather-img {
-        background-color: pink;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* sun icon */
+      .fa-sun-o {
+        font-size: 20vh;
       }
       .weather-info {
-        background-color: turquoise;
+        /* background-color: turquoise; */
+      }
+      .current-temp{
+        background-color: red;
+        height: 13vh;
+      }
+      .max-min-temp,
+      .rain-wind {
+        background-color: yellow;
+        height: 5vh;
+      }
+      .rain-wind {
+        background-color: pink;
       }
 /* end of daily section */
 
